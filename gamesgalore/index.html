@@ -1,0 +1,90 @@
+<! DOCTYPE HTML>
+<!--
+Index Page
+Week 1 MiU ssignment
+Howie Livingston
+Ms.Alarcon
+10/2012 
+Deck Constructor Mobile App 
+-->
+<html>
+	<!doctype html>  
+<html lang="en">
+<head>
+	<title>Wolflinx Page</title>
+	<meta charset="utf-8"/>
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="MobileOptimized" content="320"/>
+	<link media="only screen and (max-device-width: 480px) and (min-device-width: 320px)" href="mobile.css" type="text/css" rel="stylesheet" />
+	<link media="handheld, only screen and (max-device-width: 319px)" href="mobile_simple.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" /> 
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="js/libs/modernizr.custom.min.js"></script>
+</head>
+
+<body>
+<section data-role="page" id="home">
+		<header data-role="header" data-position="fixed">
+				<h1>Home</h1>
+			    
+		</header>
+		<div>
+				<a data-ajax="false"> 				
+          	 		<img id="indexIcon" src="images/wolflinxicon.png" alt="logo"/>
+          	 	</a>
+		</div>
+		<div data-role="title" id="topCtaTitle" style="text-align:center">Welcome to Games Galore</div>
+
+	<div data-role="content">
+		<div>
+			<a data-ajax="false" href="#signupPage" data-role="button" data-mini="true" data-theme="b">Sign-up here</a>
+		</div>
+		<div>
+		<div data-role="fieldcontain">
+			<ul data-role="listview" data-filter="true" style="text-align:center" data-theme="b">
+				<li>
+					<a href="#fun" data-ajax="false">
+					<img src="images/fun.png" alt="fun"/>
+						<h3>Fun</h3>
+						<p>Networks-Games-Digital Media</p>
+					</a>
+				</li>
+			</ul>
+			<ul data-role="listview" data-theme="a">
+				<li>
+					<a href="#ed" data-ajax="false">
+					<img src="images/education.png" alt="education"/>
+						<h3>Education</h3>
+						<p>School</p>
+					</a>
+				</li>
+			</ul>
+			<ul data-role="listview" data-theme="d">
+				<li>
+					<a href="#work" data-ajax="false">
+					<img src="images/work.png" alt="work"/>
+						<h3>Work</h3>
+							<p>Research, Current Projects, Contacts</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" >
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#signupPage" data-ajax="false" data-role="button"  data-icon="home" data-theme="a">Sign-in</a></li>
+					<li><a href="gitHub.html" data-ajax="false" data-role="button" data-icon="gear" data-theme="a">Git Links</a></li>
+				</ul>			
+		    </div>	
+		</div>
+	</section>
+	
+									<!--Javascript-->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/newMemberJson.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>		
