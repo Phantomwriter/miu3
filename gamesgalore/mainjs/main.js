@@ -1,17 +1,14 @@
 
-
+////////////////////////////////////////////////////////////////////////
 
 // Howard Livingston
-// Mobile App=Project 1
+// Gameworld Mobile App-Project 1
 // MiU-10/2012
 // Robin Alarcon
 
+////////////////////////////////////////////////////////////////////////
 
-//Event listener
-$('#home').on('pageinit', function(){
-		console.log("It's working");
-//window.addEventListener("DOMContentLoaded", function(){
-	
+
 
 //Call function short-cut
 function go(x) {
@@ -19,6 +16,7 @@ function go(x) {
 		return theElement;
 		}
 		
+
 //Get the radio button data			
 function getSelectedRadio(){
 		var radios =document.forms[0].deviceValue;
@@ -29,6 +27,7 @@ function getSelectedRadio(){
 	}
 }
 
+
 //Get the checkbox data
 function getCheckboxValue(){
 		if(go('selectValue').checked){
@@ -38,6 +37,7 @@ function getCheckboxValue(){
 			selectValue="No"
 	}
 }
+
 
 //Pick a theme for the groups
 function pickATheme(){
@@ -57,6 +57,7 @@ function pickATheme(){
 			selectLi.appendChild(makeSelect);
 }	
 				
+
 //Toggle control 
 function toggleControls(n){
 	switch(n) {
@@ -79,10 +80,18 @@ function toggleControls(n){
 	}
 }
 
+
 //Store data
-function storeData(){
+function storeData(key){
+		//if there is no key, this means this a brand new item and we need a new key
+		if(!key){
 		var id					=Math.floor(Math.random()*100000001);
-	
+		}else{
+		//Set the id to the existing key that we're editing so that it will save over the data	
+		//The key is the same key that's been passed along from the edit/submit event handler
+		//to the validate function and then passed here into the store data function
+			id = key;
+		}
 		
 		getSelectedRadio();
 		getCheckboxValue();
@@ -90,12 +99,13 @@ function storeData(){
 		var item            ={};
 			item.group		=["group:", go('groups').value];
 			item.fname		=["First Name:", go('fname').value];
+			item.lname		=["Last Name:", go('lname').value];
 			item.pword		=["Password:", go('pword').value];
 			item.cpword		=["Confirm Password:", go('cpword').value];
 			item.email		=["Email:", go('email').value];
 			item.selectValue=["What will you use Wolflinx for?:",selectValue];
 			item.deviceValue=["What device are you using?:",deviceValue];
-			item.friends    =["I have:", go('friends').value]
+			item.friends  	=["I have:", go('friends').value];
 			item.date		=["Date:", go('date').value];
 			item.comments	=["comments:", go('comments').value];
 		
@@ -103,6 +113,7 @@ function storeData(){
 			alert("Information is saved!");		
 		
 }
+
 
 //Get data
 function getData(){
@@ -139,24 +150,28 @@ function getData(){
 	}
 }
 	
- //Getting image for the right category
-    function getImage(pickATheme, makeSubList){
+ 
+//Getting image for the right category
+function getImage(pickATheme, makeSubList){
     var imageLi = document.createElement('li'); 
     	makeSubList.appendChild(imageLi);
     var newImg = document.createElement('img');
     var setSrc = newImg.setAttribute("src", "images/" + pickATheme + ".png");
     	imageLi.appendChild(newImg);
     }
+
+
 //Auto populate Local Storage
-//Store the JSON object in local storage
-    function autoFillData(){
+function autoFillData(){
     	for (var n in json){
     		var id = Math.floor(Math.random() * 100000001);
     			localStorage.setItem(id, JSON.stringify(json[n]));
     	}
     }
-//links for the items
-	function makeItemLinks(key, linksLi){
+
+
+//Links for the items
+function makeItemLinks(key, linksLi){
 		var editLink=document.createElement('a');
 			editLink.href ="#";
 			editLink.key = key;
@@ -177,13 +192,16 @@ function getData(){
 			deleteLink.innerHTML=deleteText;
 			linksLi.appendChild(deleteLink);
 }
-//edit item
+
+
+//Edit item
 function editItem(){
 		var value = localStorage.getItem(this.key);
 		var item = JSON.parse(value);
 			toggleControls("off");
 			go('groups').value=item.group[1];
 			go('fname').value=item.fname[1];
+			go('lname').value=item.lname[1];
 			go('pword').value=item.pword[1];
 			go('cpword').value=item.cpword[1];
 			go('email').value=item.email[1];
@@ -216,6 +234,8 @@ function editItem(){
 	
 }
 
+
+//Delete Item
 function deleteItem(){
 		var ask = confirm("R U sure U want 2 delete the content?");
 		if(ask){
@@ -230,9 +250,8 @@ function deleteItem(){
 }
 
 
-
 //Clear local storage
-	function clearLocal(){
+function clearLocal(){
 		if(localStorage.length === 0){
 			alert("There's no data to clear!");
 		}else{
@@ -243,12 +262,12 @@ function deleteItem(){
 	}
 }	
 
+
 //Validate groups, first and last name and email
 function validate(e){
 		var getGroup = go('groups');
 		var getFname =go('fname');
 	    var getLname =go('lname');
-		var getGroup = go('groups');
 		var getEmail =go('email');
 		errMsg.innerHTML = "";
 			getGroup.style.border ="1px solid black";
@@ -295,6 +314,7 @@ function validate(e){
 			e.preventDefault();
 			return false;
 		}else{
+		//Send the key value from the edit function
 		storeData(this.key);
 		
 	}
@@ -302,13 +322,14 @@ function validate(e){
 
 
 //Local variables and function calls
-		var contactGroups =["--Pick A Card Game--", "Yu-Gi-Oh", "Magic The Gathering", "Poker"],
+		var contactGroups =["--Main Interests--", "On-Line Games", "Console Games", "Phone Apps" , "Card Games" , "Manual Games"],
 			deviceValue,				
 			selectValue = "No",
 			errMsg = go('errors');
 		
 		
 pickATheme();
+
 //Set Link and Submit Click Events
 	
 		var displayLink = go('displayLink');
@@ -319,7 +340,7 @@ pickATheme();
 			save.addEventListener("click", validate);
 
 
-});
+
 
 
 

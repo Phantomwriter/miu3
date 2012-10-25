@@ -1,7 +1,8 @@
 var json = {
-	"User 1" :{
-		"group":["Group:","yu-gi-oh"],
-		"fname":["First name:","Howard Livingston"],
+"User 1" :{
+		"group":["Group:","On-Line Games"],
+		"fname":["First name:","Howard"],
+		"lname":["Last name:","Livingston"],
 		"pword":["Password:","Alibubba123$"],
 		"cpword":["Confirm Password:","Alibubba123$"],
 		"email":["Email:","takeovertheworld.livingston7@gmail.com"],
@@ -11,9 +12,10 @@ var json = {
 		"date":["Date:","June 2,2012"],
 		"comments":["comments:","I wanna rock!"]
 	},	
-	"User 2" :{
-		"group":["Group:","yu-gi-oh"],
-		"fname":["First name:","Tori Livingston"],
+"User 2" :{
+		"group":["Group:","On-Line Games"],
+		"fname":["First name:","Tori"],
+		"lname":["Last name:","Livingston"],
 		"pword":["Password:","PanicAtTheDisco"],
 		"cpword":["Confirm Password:","PanicAtTheDisco"],
 		"email":["Email:","tnight47@aol.com"],
@@ -23,9 +25,10 @@ var json = {
 		"date":["Date:","November 10, 2011"],
 		"comments":["comments:","I'm a pesky teenager"]
 	},
-	"User 3" :{
-		"group":["Group:","yu-gi-oh"],
-		"fname":["First name:","Hannah Ilagan"],
+"User 3" :{
+		"group":["Group:","On-Line Games"],
+		"fname":["First name:","Hannah"],
+		"lname":["Last name:","Ilagan"],
 		"pword":["Password:","PanicAtTheDisco"],
 		"cpword":["Confirm Password:","PanicAtTheDisco"],
 		"email":["Email:","kittensAndZombies@aol.com"],
@@ -35,10 +38,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","yay me!"]
 	},
-	
-	"User 4" :{
-		"group":["Group:","yu-gi-oh"],
-		"fname":["First name:","Alley Livingston"],
+"User 4" :{
+		"group":["Group:","On-Line Games"],
+		"fname":["First name:","Alley"],
+		"lname":["Last name:","Livingston"],
 		"pword":["Password:","Dungeons and Dragons"],
 		"cpword":["Confirm Password:","PanicAtTheDisco"],
 		"email":["Email:","kittensAndZombies@aol.com"],
@@ -48,10 +51,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","These aren't the droids you're looking for!"]
 	},
-	
-	"User 5" :{
-		"group":["Group:","yu-gi-oh"],
-		"fname":["First name:","Don the Dude"],
+"User 5" :{
+		"group":["Group:","Manual Games"],
+		"fname":["First name:","Don"],
+		"lname":["Last name:","The Dude"],
 		"pword":["Password:","need food"],
 		"cpword":["Confirm Password:","need food"],
 		"email":["Email:","willplayforfood@aol.com"],
@@ -61,10 +64,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Will play for food!"]
 	},
-
-	"User 6" :{
-		"group":["Group:","yu-gi-oh"],
+"User 6" :{
+		"group":["Group:","Console Games"],
 		"fname":["First name:","Murph"],
+		"lname":["Last name:","The Scurf"],
 		"pword":["Password:","twinkies"],
 		"cpword":["Confirm Password:","twinkies"],
 		"email":["Email:","gimmefood@aol.com"],
@@ -74,11 +77,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","I'm my own best friend!"]
 	},
-
-
-	"User 7" :{
-		"group":["Group:","Magic The Gathering"],
-		"fname":["First name:","Bobby Burner"],
+"User 7" :{
+		"group":["Group:","Console Games"],
+		"fname":["First name:","Bobby"],
+		"lname":["Last name:","Burner"],
 		"pword":["Password:","smokey"],
 		"cpword":["Confirm Password:","smokey"],
 		"email":["Email:","MaryJane@aol.com"],
@@ -86,13 +88,12 @@ var json = {
 		"deviceValue":["What device are you using:","phone"],
 		"friends":["I have:","3"],
 		"date":["Date:","June 16, 2012"],
-		"comments":["comments:","yay me!"]
+		"comments":["comments:","I need munchies bro!"]
 	},
-
-
-	"User 8" :{
-		"group":["Group:","Magic The Gathering"],
+"User 8" :{
+		"group":["Group:","Console Games"],
 		"fname":["First name:","Heather"],
+		"lname":["Last name:","And that's all you need to know"],
 		"pword":["Password:","RitzCarlton"],
 		"cpword":["Confirm Password:","RitzCarlton"],
 		"email":["Email:","MoreThanYou@aol.com"],
@@ -102,12 +103,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Send me a text!"]
 	},
-
-
-
-	"User 9" :{
-		"group":["Group:","Magic The Gathering"],
-		"fname":["First name:","Mr. Jones"],
+"User 9" :{
+		"group":["Group:","Console Games"],
+		"fname":["First name:","Mr."],
+		"lname":["Last name:","Jones"],
 		"pword":["Password:","Headhunter"],
 		"cpword":["Confirm Password:","Headhunter"],
 		"email":["Email:","wannajob@aol.com"],
@@ -117,12 +116,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Call me for a job!"]
 	},
-
-
-
-	"User 10" :{
-		"group":["Group:","Magic The Gathering"],
+"User 10" :{
+		"group":["Group:","Manual Games"],
 		"fname":["First name:","Killer"],
+		"lname":["Last name:","Kawalski"],
 		"pword":["Password:","Crossbones"],
 		"cpword":["Confirm Password:","Crossbones"],
 		"email":["Email:","dontbe scared@aol.com"],
@@ -132,14 +129,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","The tides of war are breaking the dam!!"]
 	},
-
-
-
-
-
-	"User 11" :{
-		"group":["Group:","Magic The Gathering"],
-		"fname":["First name:","Granny Gerta"],
+"User 11" :{
+		"group":["Group:","Phone Apps"],
+		"fname":["First name:","Granny"],
+		"lname":["Last name:","Gerta"],
 		"pword":["Password:","Grandma"],
 		"cpword":["Confirm Password:","Grandma"],
 		"email":["Email:","loveInEveryStitch@aol.com"],
@@ -149,12 +142,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","You'll love my cookies, but hate my punishment!"]
 	},
-
-
-
-	"User 12" :{
-		"group":["Group:","Magic The Gathering"],
-		"fname":["First name:","Bob the mechanic"],
+"User 12" :{
+		"group":["Group:","Phone Apps"],
+		"fname":["First name:","Bob"],
+		"lname":["Last name:","The mechanic"],
 		"pword":["Password:","bent pipe"],
 		"cpword":["Confirm Password:","Tourque"],
 		"email":["Email:","CarKiller@aol.com"],
@@ -164,13 +155,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Your car will never be the same"]
 	},
-
-
-
-
-	"User 13" :{
-		"group":["Group:","Magic The Gathering"],
+"User 13" :{
+		"group":["Group:","Phone Apps"],
 		"fname":["First name:","Kelly"],
+		"lname":["Last name:","Livingston"],
 		"pword":["Password:","And Like"],
 		"cpword":["Confirm Password:","And Like"],
 		"email":["Email:","Don'tEvenGoThere@aol.com"],
@@ -180,11 +168,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Don't you wanna' come party with me?"]
 	},
-
-
-	"User 14" :{
-		"group":["Group:","Magic The Gathering"],
-		"fname":["First name:","The Tin Woodsman"],
+"User 14" :{
+		"group":["Group:","Phone Apps"],
+		"fname":["First name:","The Tin"],
+		"lname":["Last name:","Woodsman"],
 		"pword":["Password:","oil can"],
 		"cpword":["Confirm Password:","oil can"],
 		"email":["Email:","INeedAHeart@aol.com"],
@@ -194,10 +181,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","if I only had a heart"]
 	},
-
-	"User 15" :{
-		"group":["Group:","Magic The Gathering"],
+"User 15" :{
+		"group":["Group:","Manual Games"],
 		"fname":["First name:","Scarecrow"],
+		"lname":["Last name:","Of the cornfield"],
 		"pword":["Password:","NoFire"],
 		"cpword":["Confirm Password:","NoFire"],
 		"email":["Email:","needABrain@aol.com"],
@@ -207,13 +194,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","They tore off my arms and threw them over there!!"]
 	},
-
-
-
-
-	"User 16" :{
-		"group":["Group:","Poker"],
-		"fname":["First name:","The Cowardly Lion"],
+"User 16" :{
+		"group":["Group:","Card Games"],
+		"fname":["First name:","The Cowardly"],
+		"lname":["Last name:","Lion"],
 		"pword":["Password:","I ain't scared a' nutin'"],
 		"cpword":["Confirm Password:","I ain't scared a' nutin'"],
 		"email":["Email:","putEmUp@aol.com"],
@@ -223,12 +207,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Whad' ya' have tp go and do that for?"]
 	},
-
-
-
-	"User 17" :{
-		"group":["Group:","Poker"],
+"User 17" :{
+		"group":["Group:","Card Games"],
 		"fname":["First name:","Dorothy"],
+		"lname":["Last name:","Of Kansas"],
 		"pword":["Password:","Toto"],
 		"cpword":["Confirm Password:","Toto"],
 		"email":["Email:","Kansas@aol.com"],
@@ -238,13 +220,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","There's no place like home!"]
 	},
-
-
-
-
-	"User 18" :{
-		"group":["Group:","Poker"],
-		"fname":["First name:","The wizard"],
+"User 18" :{
+		"group":["Group:","Card Games"],
+		"fname":["First name:","The Wizard"],
+		"lname":["Last name:","of Oz"],
 		"pword":["Password:","Come back tomorrow"],
 		"cpword":["Confirm Password:","Come back tomorrow"],
 		"email":["Email:","NeverMindThatManBehindTheCurtain@aol.com"],
@@ -254,11 +233,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Nobody gets in to see the wizard, not no way, not no how!!"]
 	},
-
-
-	"User 19" :{
-		"group":["Group:","Poker"],
-		"fname":["First name:","Glenda the good witch"],
+"User 19" :{
+		"group":["Group:","Card Games"],
+		"fname":["First name:","Glenda"],
+		"lname":["Last name:","The good witch"],
 		"pword":["Password:","Be gone"],
 		"cpword":["Confirm Password:","Be gone"],
 		"email":["Email:","GoodWitches@aol.com"],
@@ -268,10 +246,10 @@ var json = {
 		"date":["Date:","June 16, 2012"],
 		"comments":["comments:","Follow the yellow brick road"]
 	},
-
-	"User 20" :{
-		"group":["Group:","Poker"],
-		"fname":["First name:","Wicked Witch of West"],
+"User 20" :{
+		"group":["Group:","Manual Games"],
+		"fname":["First name:","The Wicked Witch"],
+		"lname":["Last name:","Of The West"],
 		"pword":["Password:","My Pretty"],
 		"cpword":["Confirm Password:","My Pretty"],
 		"email":["Email:","WickedWitches@aol.com"],
