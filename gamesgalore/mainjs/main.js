@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////
 
 // Howard Livingston
-// Gameworld Mobile App-Project 1
+// Gameworld App-Project 1
 // MiU-10/2012
 // Robin Alarcon
 

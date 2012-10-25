@@ -4,7 +4,7 @@
 Title: MiU Project 1
 For: Gameworld Mobile App
 Date:10/2012
-By: Howard Livingston
+Howard Livingston
 Instructor: Ms.Alarcon
 CSS Stylings for index.html and additem.html
 */
@@ -33,7 +33,7 @@ CSS Stylings for index.html and additem.html
 
 
 /*index page-It's all about the games*/
-#topCtaTitle{		
+.topCtaTitle{		
 			text-align:center;
 			color:#FFFFFF;
 			font-style:regular;
@@ -102,7 +102,7 @@ h2{
 			font-style:regular;
 			font-family:Copperplate Gothic Bold;
 			font-weight:5px;
-			font-size:28pt;
+			font-size:24pt;
 			text-shadow: 0 0 10px #FFFFFF;
 }
 
@@ -120,7 +120,14 @@ p{
 			text-shadow: 0 0 10px #FFFFFF;
 }
 
+#qoftheday{
+			text-align:center;
+			color:#FFFFFF;
+			font-style:regular;
+			font-family:("Chalkduster",serif, bold);
 
+
+}
 /*indexPage*/
 #getMeStarted{
 

@@ -250,7 +250,7 @@ var json = {
 		"group":["Group:","Manual Games"],
 		"fname":["First name:","The Wicked Witch"],
 		"lname":["Last name:","Of The West"],
-		"pword":["Password:","My Pretty"],
+		"pword":["Password:","My Little Pretty"],
 		"cpword":["Confirm Password:","My Pretty"],
 		"email":["Email:","WickedWitches@aol.com"],
 		"selectValue":["What do you want to do:","Text"],
