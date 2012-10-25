@@ -33,7 +33,7 @@ CSS Stylings for index.html and additem.html
 
 
 /*index page-It's all about the games*/
-#topCtaTitle{		
+.topCtaTitle{		
 			text-align:center;
 			color:#FFFFFF;
 			font-style:regular;
@@ -120,7 +120,14 @@ p{
 			text-shadow: 0 0 10px #FFFFFF;
 }
 
+#qoftheday{
+			text-align:center;
+			color:#FFFFFF;
+			font-style:regular;
+			font-family:("Chalkduster",serif, bold);
 
+
+}
 /*indexPage*/
 #getMeStarted{
 
