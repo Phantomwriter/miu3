@@ -1,0 +1,342 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Mobile Site Template</title>
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="cleartype" content="on">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<link rel="stylesheet" href="css/style.css"/>	
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+<!--Gameworld Home-->
+<div data-role="page" id="home">
+
+	<div data-role="header" data-position="fixed">
+		<h1>
+        	Gameworld
+      		</h1>
+      	</div>
+      	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/Gamesgalore.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+          It's all about the games!
+        </h2>
+      </div>
+	
+	<div data-role="content" id="indexBackground">
+	<div id="qoftheday"><br>
+	  		<p class="topCtaTitle">Today's question</p>
+      	 	<p>What year was the first Playstation Introduced?</p>
+	  		  		<p>
+	  		  		<a data-ajax="false" href="deals.html" data-role="button" data-mini="true" data-theme="b">
+				
+				Click for the answer<br>
+				and today's deals.
+				
+				</a></p>
+	  	</div>
+	  	<div>
+          <p><a data-ajax="false" href="#additem.html" data-role="button" data-mini="true" data-theme="b">
+            
+            Sign-up
+          	
+          </a></p>
+      </div>
+	<div data-role="search-basic">
+        <label for="search" style="text-align:center;">
+        </label>
+        <input type="search" name="search" id="search"/>
+      </div>
+<!--Browse titled listviewis-->      	
+      	<p>Browse Categories</p>
+      <div data-role="fieldcontain">
+		
+          <ul data-role="listview" data-theme="a">
+            <li>
+              <a href="#onlineGames" data-ajax="false">
+                <img src="images/On-Line Games.png" alt="fun" style="text-align=left;"/>
+                <h3>
+                  On-line Games
+                </h3>
+                <p>
+                  WOW, Addicting Games.com
+                </p>
+              </a>
+            </li>
+          </ul>
+          <ul data-role="listview" data-theme="a">
+            <li>
+              <a href="#consoleGames" data-ajax="false">
+                <img src="images/Console Games.png" alt="education"/>
+                <h3>
+                  Console Game info
+                </h3>
+                <p>
+                  Playstation-X-Box-Nintendo
+                </p>
+              </a>
+            </li>
+          </ul>
+          <ul data-role="listview" data-theme="a">
+            <li>
+              <a href="#phoneApps" data-ajax="false">
+                <img src="images/Phone Apps.png" alt="work"/>
+                <h3>
+                  Phone Apps
+                </h3>
+                <p >
+                  Angry Birds-Words With Friends-Scramble
+                </p>
+              </a>
+            </li>
+          </ul>
+          <ul data-role="listview" data-theme="a">
+            <li>
+              <a href="#cardGames" data-ajax="false">
+                <img src="images/Card Games.png" alt="work"/>
+                <h3>
+                  Card Games
+                </h3>
+                <p>
+                  Poker-Magic the Gathering-Yu-Gi-Oh
+                </p>
+              </a>
+            </li>
+          </ul>
+          <ul data-role="listview" data-theme="a">
+            <li>
+              <a href="#manualGames" data-ajax="false">
+                <img src="images/Manual Games.png" alt="work"/>
+                <h3>
+                  Manual Games
+                </h3>
+                <p>
+                  Monopoly, Trivial Pursuit, Backgammon
+                </p>
+              </a>
+            </li>
+          </ul>
+      </div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!--Signup Page-->
+<div data-role="page" id="signupPage">
+
+	<div data-role="header" data-position="fixed" data-add-back-btn="true">
+		<h1>Gameworld Sign-Up Page</h1>
+	</div>
+	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/Gamesgalore.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+          Sign-Up!
+        </h2>
+      </div>
+	
+	<div data-role="content">
+	<div>
+		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="b">Take Me Home</a>
+	</div>
+	<p>data-form goes here</p> 
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+
+<!--1) Online Game page-->
+
+<div data-role="page" id="onlineGames">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Online Games page</h1>
+	</div>
+	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/On-Line Games.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+          On-Line Games
+        </h2>
+      </div>
+	
+	<div data-role="content">
+	<div>
+		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="b">Take Me Home</a>
+	</div>
+	<p>Online Games</p> 
+	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+
+
+
+<!--2) Console Game page-->
+<div data-role="page" id="consoleGames">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Console Games</h1>
+	</div>
+	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/Console Games.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+          Console Games
+        </h2>
+      </div>
+	<div data-role="content">
+	<div>
+		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="b">Take Me Home</a>
+	</div>
+	<p>Console Games</p> 
+	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+
+
+
+<!--3) PhoneApp page-->
+
+<div data-role="page" id="phoneApps">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Phone Apps</h1>
+	</div>
+	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/Phone Apps.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+         Phone Apps
+        </h2>
+      </div>
+	<div data-role="content">
+	<div>
+		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="b">Take Me Home</a>
+	</div>
+	<p>Phone Apps</p> 
+	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+
+
+
+<!--4) Card Game Page-->
+
+<div data-role="page" id="cardGames">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Card Games</h1>
+	</div>
+	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/Card Games.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+          Card Games
+        </h2>
+      </div>
+	<div data-role="content">
+	<div>
+		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="b">Take Me Home</a>
+	</div>
+	<p>Card Games</p> 
+	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!--5) Manual Game page-->
+
+<div data-role="page" id="manualGames">
+
+	<div data-role="header" data-position="fixed">
+		<h1>Manual Games</h1>
+	</div>
+	<div id="ctabox">
+        <a data-ajax="false">
+          
+          <img id="indexIcon" src="images/Manual Games.png" alt="logo" align="left"/>
+        </a>
+        <h2>
+          Manual Games
+        </h2>
+      </div>
+	<div data-role="content">
+	<div>
+		<a href="#home" data-ajax="false" data-role="button" class="backToHomeButton" data-mini="true" data-theme="b">Take Me Home</a>
+	</div>
+	<p>Manual Games</p> 
+	
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Footer</h4>
+	</div>
+</div>
+
+
+
+	
+
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
