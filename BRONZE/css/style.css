@@ -97,12 +97,13 @@ h3{
 
 /*Index Page-build your deck*/
 h2{
+			padding-top:30px;
 			text-align:center;
 			color:#33cccc;
 			font-style:regular;
 			font-family:Copperplate Gothic Bold;
 			font-weight:5px;
-			font-size:24pt;
+			font-size:18pt;
 			text-shadow: 0 0 10px #FFFFFF;
 }
 
