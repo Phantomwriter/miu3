@@ -1,6 +1,6 @@
 
 ////////////////////////////////////////////////////////////////////////
-
+// GOLD VERSION
 // Howard Livingston
 // Gameworld App-Project 1
 // MiU-10/2012
@@ -34,7 +34,7 @@ function getCheckboxValue(){
 				selectValue= go('selectValue').value;
 		
 			}else{
-			selectValue="No"
+			selectValue="No";
 	}
 }
 
@@ -65,15 +65,14 @@ function toggleControls(n){
 		go('contactForm').style.display ="none";
 		go('clear').style.display ="inline";
 		go('displayLink').style.display ="none";
-		go('addNew').style.display ="inline";
+		go('addNew').style.display ="listview";
 		break;
 	case "off":
 		go('contactForm').style.display ="block";
 		go('clear').style.display ="inline";
 		go('displayLink').style.display ="inline";
-		go('addNew').style.display ="none";
+		go('addNew').style.display ="listview";
 		go('items').style.display="none";
-		go('addNew').style.display ="inline";
 		break;
 	default:
 		return false;
@@ -244,7 +243,7 @@ function deleteItem(){
 					window.location.reload();
 		
 		}else{
-			alert("Content not deleted")
+			alert("Content not deleted");
 		
 	}
 }

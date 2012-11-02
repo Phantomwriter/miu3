@@ -1,6 +1,7 @@
 
 
 /*
+GOLD CSS
 Title: MiU Project 1
 For: Gameworld Mobile App
 Date:10/2012
@@ -23,8 +24,9 @@ CSS Stylings for index.html and additem.html
 }
 
 
-/*indexpage-Wolf Icon position*/
-#indexIcon{
+/*indexpage- Icon position*/
+.indexIcon{
+    		float:left;
     		display: block;
     		margin-left: auto;
    			margin-right: auto;
@@ -34,7 +36,7 @@ CSS Stylings for index.html and additem.html
 
 /*index page-It's all about the games*/
 .topCtaTitle{		
-			text-align:center;
+			
 			color:#FFFFFF;
 			font-style:regular;
 			font-family:("Chalkduster",serif, bold);
@@ -42,17 +44,11 @@ CSS Stylings for index.html and additem.html
 
 
 /*index page-icon container*/
-#ctabox{
+.ctabox{
+			
 			background-image:url('http://insurancespringfieldmissouri.com/wp-content/uploads/2011/03/scratched-texture-background.jpg');	
 			height:250px;
 }
-
-
-/*index page-search bar*/
-#searchbar{
-			text-align:center;
-}
-
 
 /*index page-Log-in link*/
 #login{
@@ -85,19 +81,20 @@ h1{
 
 /*Index Page-Save your deck*/
 h3{
+			padding-top:25px;
 			text-align:center;
 			color:#33cccc;
 			font-style:regular;
 			font-family:Copperplate Gothic Bold;
-			font-size:36pt;
+			font-size:16pt;
 			text-shadow: 0 0 10px #FFFFFF;
 
 }
 
 
 /*Index Page-build your deck*/
-h2{
-			padding-top:30px;
+#indexTitle{
+			padding-top:10px;
 			text-align:center;
 			color:#33cccc;
 			font-style:regular;
@@ -141,6 +138,14 @@ p{
 			text-shadow: 0 0 10px #FFFFFF;
 }
 
+//Image slider on indexpage
+#slider-code { height: 125px; overflow:hidden; }
+#slider-code .viewport { float: left; width: 240px; height: 125px; overflow: hidden; position: relative; }
+#slider-code .buttons { display: block; margin: 30px 10px 0 0; float: left; }
+#slider-code .next { margin: 30px 0 0 10px;  }
+#slider-code .disable { visibility: hidden; }
+#slider-code .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+#slider-code .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 121px; border: 1px solid #dcdcdc; width: 236px;}
 /*///////////////////////////Add Item Page/////////////////////////////////////////////////*/
 
 /*add item pic*/
@@ -298,6 +303,96 @@ form{
 			padding-right:40px;
 				
 }
+
+/*///////////////////////////All Button Text Color/////////////////////////////////////////////////*/
+
+.ui-btn-text{
+
+			color:white;
+			
+}
+
+h4{
+			text-align:center;
+			font-size:16pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+			
+
+}
+
+#p3{
+			font-size:12pt;
+			color:#920031;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+}
+
+.p3{
+			text-align:center;
+			font-size:12pt;
+			color:#920031;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+}
+
+p4{
+			
+			font-size:14pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+}
+
+#thanks{
+			font-size:10pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+
+
+
+}
+/*/////////////////////////// End All Button Text Color/////////////////////////////////////////////////*/
+
+/*///////////////////////////My Page /////////////////////////////////////////////////*/
+
+#myPageHeader{
+			
+			padding-top:50px;
+}
+
+.myPageFavorites{
+			text-align:center;
+			color:#920031;
+			font-style:regular;
+			font-family:Copperplate Gothic Bold;
+			font-size:12pt;
+			text-shadow: 0 0 10px #FFFFFF;
+}
+
+.p10{
+			text-align:center;
+			font-size:14pt;
+			color:#1240ab;
+			font-style:bold;
+			font-family:(Copperplate Gothic Bold);
+			font-weight:1px;
+
+}
+
+
+
+/*///////////////////////////My Page/////////////////////////////////////////////////*/
+
 
 
 /*//////////////////////////////////JSON DATA//////////////////////////////////*/

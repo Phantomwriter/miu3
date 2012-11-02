@@ -1,6 +1,6 @@
 
 ////////////////////////////////////////////////////////////////////////
-
+// BRONZE VERSION
 // Howard Livingston
 // Gameworld App-Project 1
 // MiU-10/2012
@@ -34,7 +34,7 @@ function getCheckboxValue(){
 				selectValue= go('selectValue').value;
 		
 			}else{
-			selectValue="No"
+			selectValue="No";
 	}
 }
 
@@ -244,7 +244,7 @@ function deleteItem(){
 					window.location.reload();
 		
 		}else{
-			alert("Content not deleted")
+			alert("Content not deleted");
 		
 	}
 }
